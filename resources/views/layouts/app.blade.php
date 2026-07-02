@@ -13,7 +13,7 @@
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0">
                     <a href="{{ url('/') }}" class="text-xl font-bold tracking-wider text-blue-600 hover:text-blue-700 transition duration-300">
-                        Bull<span class="text-zinc-900">.</span>InHere
+                        Bull
                     </a>
                 </div>
 

@@ -1,10 +1,11 @@
 @extends('layouts.app')
 
-@section('title','Portfolio')
+@section('title', 'Portfolio | Muhammad Nazril')
 
 @section('content')
+    @include('components.hero')
 
-@include('partials.hero')
-@include('partials.projects-list')
+    @include('components.about')
 
+    @include('components.projects-list')
 @endsection

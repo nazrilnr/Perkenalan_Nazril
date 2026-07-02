@@ -3,12 +3,9 @@
         
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900">
-                Project Pilihan
+                Project
             </h2>
             <div class="h-1 w-12 bg-blue-500 mx-auto mt-4 rounded-full"></div>
-            <p class="text-zinc-600 mt-4 text-sm sm:text-base">
-                Koleksi project web application yang telah saya rancang dan kembangkan secara mandiri maupun kolaboratif.
-            </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

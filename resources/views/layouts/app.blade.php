@@ -13,8 +13,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0">
-                    <a href="{{ url('/') }}" class="text-xl font-bold tracking-wider text-blue-600 hover:text-blue-700 transition duration-300">
-                        Bull
+                    <a href="{{ url('/') }}" class="text-2xl font-black tracking-tighter text-blue-600 hover:text-blue-700 font-mono transition duration-300">
+                        BULL
                     </a>
                 </div>
 

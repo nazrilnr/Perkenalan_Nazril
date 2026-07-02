@@ -18,7 +18,7 @@ Route::get('/manage/login', function () {
 
 // Memproses inputan password dari user
 Route::post('/manage/login', function (Request $request) {
-    $staticPassword = 'nazril';
+    $staticPassword = '123';
 
     if ($request->input('portfolio_password') === $staticPassword) {
         session(['is_admin_logged_in' => true]);

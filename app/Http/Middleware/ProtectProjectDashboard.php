@@ -10,7 +10,7 @@ class ProtectProjectDashboard
 {
     public function handle(Request $request, Closure $next): Response
     {
-        $staticPassword = 'nazril';
+        $staticPassword = '123';
 
         // Cek apakah session login admin sudah ada dan benar
         if (session('is_admin_logged_in') === true) {

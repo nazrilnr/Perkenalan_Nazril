@@ -4,14 +4,23 @@
 
     <div class="max-w-4xl mx-auto text-center relative z-10 space-y-6 sm:space-y-8">
 
-        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight text-zinc-900 leading-none uppercase">
-            <span class="text-blue-600">
-                Web Developer
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight text-zinc-900 leading-none uppercase flex flex-col sm:flex-row items-center justify-center gap-3">
+            <span class="inline-flex flex-col h-[1.2em] overflow-hidden text-blue-600 relative">
+                <span class="animate-[roll_4s_infinite] flex flex-col transition-all">
+                    <span class="h-[1.2em] flex items-center justify-center">Bull</span>
+                    <span class="h-[1.2em] flex items-center justify-center text-zinc-900">Nazril</span>
+                    <span class="h-[1.2em] flex items-center justify-center">Bull</span>
+                </span>
             </span>
+            <span>In Here</span>
         </h1>
 
+        <h2 class="text-xl sm:text-2xl font-bold text-zinc-700 tracking-wide uppercase">
+            Web Developer
+        </h2>
+
         <p class="text-zinc-600 text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed">
-        Mengembangkan aplikasi web modern dan skalabel dengan fokus pada desain yang rapi serta pengalaman pengguna yang optimal.
+            Mengembangkan aplikasi web modern dan skalabel dengan fokus pada desain yang rapi serta pengalaman pengguna yang optimal.
         </p>
 
         <div class="pt-4">
@@ -25,3 +34,17 @@
 
     </div>
 </section>
+
+<style>
+@keyframes roll {
+    0%, 35% {
+        transform: translateY(0);
+    }
+    50%, 85% {
+        transform: translateY(-1.2em);
+    }
+    100% {
+        transform: translateY(-2.4em);
+    }
+}
+</style>

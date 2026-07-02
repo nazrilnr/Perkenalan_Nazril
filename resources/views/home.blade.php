@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Portfolio | Muhammad Nazril')
+@section('title', 'Bull In Here')
 
 @section('content')
     @include('components.hero')
